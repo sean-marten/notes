@@ -1,0 +1,46 @@
+<!-- Designates the home directory -->
+~
+
+<!-- Designates the current working directory -->
+.
+
+<!-- List files in current directory (folder) -->
+ls
+
+<!-- List all files (hidden too) in current directory (folder) -->
+ls -a
+
+<!-- Make a new directory (folder) -->
+mkdir 'foldername'
+
+<!-- change into a different directory -->
+cd 'directory'
+
+<!-- Move backwards a directory (to the parent of the current directory) -->
+cd ..
+
+<!-- Create a new file -->
+touch 'filename.extension'
+
+<!-- Print our working directory -->
+pwd
+
+<!-- Rename a file or move it (if you are putting it in a different directory) -->
+mv 'currentfile' 'destinationfile'
+
+<!-- Remove a file -->
+rm 'filename'
+
+<!-- Remove a folder -->
+rm -rf 'folderdirectory'
+
+<!-- Show all of the commands you have run -->
+history
+
+<!-- Clears the output on your terminal -->
+cmd - k or clear
+
+<!-- Opens VS Code from your terminal -->
+code './filename'
+	Need to first run shell command Shell command 'code' successfully installed 	in PATH.
+	Only use . if you want to open the whole folder
