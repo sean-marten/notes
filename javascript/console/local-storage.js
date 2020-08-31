@@ -14,3 +14,7 @@ localStorage.setItem("array", "[1,2,3]");
 // This actually stores it as an array, but it still comes back as a string.
 
 // It is important to remember to stringify your variable before storing it.
+localStorage.setItem("highscores", JSON.stringify(highscores));
+
+// And to parse it upon retrieving it
+var storedHighScores = JSON.parse(localStorage.getItem("highscores"));
