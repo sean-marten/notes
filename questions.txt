@@ -1,0 +1,4 @@
+What is a block?
+What is an object literal?
+How does "require" work exactly?
+Go over arrow functions.
